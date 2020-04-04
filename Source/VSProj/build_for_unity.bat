@@ -1,7 +1,7 @@
 @set UNITY_HOME=I:\2019.3.0f6
 @set GMCS="%UNITY_HOME%\Editor\Data\MonoBleedingEdge\bin\mcs"
 @set MONO="%UNITY_HOME%\Editor\Data\MonoBleedingEdge\bin\mono"
-@set DLL_OUTPUT=..\UnityProj\Assets\Plugins\IFix.Core.dll
+@set DLL_OUTPUT=..\UnityProj\Assets\Plugins\IFix\IFix.Core.dll
 @set TOOL_KIT_PATH=..\UnityProj\IFixToolKit
 call %GMCS% ShuffleInstruction.cs -out:.\ShuffleInstruction.exe
 %MONO% ShuffleInstruction.exe Src\Core\Instruction.cs Instruction.cs
