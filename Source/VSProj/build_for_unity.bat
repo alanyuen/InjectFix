@@ -1,5 +1,5 @@
-@set UNITY_HOME=D:\Program Files\Unity523f1
-@set GMCS="%UNITY_HOME%\Editor\Data\Mono\bin\gmcs"
+@set UNITY_HOME=I:\2019.3.0f6
+@set GMCS="%UNITY_HOME%\Editor\Data\MonoBleedingEdge\bin\mcs"
 @set MONO="%UNITY_HOME%\Editor\Data\MonoBleedingEdge\bin\mono"
 @set DLL_OUTPUT=..\UnityProj\Assets\Plugins\IFix.Core.dll
 @set TOOL_KIT_PATH=..\UnityProj\IFixToolKit
